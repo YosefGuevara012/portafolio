@@ -14,7 +14,6 @@ body {
     align-items: center;
     background-color: #333;
     color: white;
-    position: fixed;
 }
 
 .my_name {
@@ -81,7 +80,7 @@ body {
 
 #welcome-section{
   background-image: url("https://images.pexels.com/photos/912388/pexels-photo-912388.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-  height: 100vh;
+  height: 700px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -111,4 +110,30 @@ img{
   cursor:pointer;
   color:white;
   margin:1rem;
+}
+
+/*Portafolio*/
+#projects{
+  diplay:flex;
+  justify-content: center;
+  align-items: center;
+}
+#proyects_content{
+  width:90%;
+  height:500px;
+  background-color:grey;
+  margin:auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project{
+  background-color: white;
+  width:30%;
+  margin:20px;
+  text-align: center;
+  line-height: 200px;
+}
+#more_proyects{
+  margin:auto;
 }
